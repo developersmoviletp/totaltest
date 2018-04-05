@@ -273,7 +273,7 @@
 				ORGANIZATIONNAME = "Enrique Salazar";
 				TargetAttributes = {
 					49A29B661636F9A70084C9E3 = {
-						DevelopmentTeam = S33SYN3N85;
+						DevelopmentTeam = X8K9N6K2T4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -496,8 +496,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = S33SYN3N85;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = X8K9N6K2T4;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,7 +510,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/TotalPlay/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay02;
 				PRODUCT_NAME = Totalplay;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -617,8 +617,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = S33SYN3N85;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = X8K9N6K2T4;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -631,7 +631,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/TotalPlay/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay02;
 				PRODUCT_NAME = Totalplay;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -663,8 +663,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = S33SYN3N85;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = X8K9N6K2T4;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,7 +677,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/TotalPlay/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay02;
 				PRODUCT_NAME = Totalplay;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
