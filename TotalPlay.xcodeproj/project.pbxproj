@@ -28,13 +28,6 @@
 		9A41434A1BC23CCE00B64AD0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4143491BC23CCE00B64AD0 /* Security.framework */; };
 		9A41434C1BC23E3700B64AD0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A41434B1BC23E3700B64AD0 /* LocalAuthentication.framework */; };
 		9AADCA392072B9E0004386BC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA382072B9E0004386BC /* libc++.tbd */; };
-		9AADCA412072BC1B004386BC /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA3A2072BC1A004386BC /* FBSDKMessengerShareKit.framework */; };
-		9AADCA422072BC1B004386BC /* FBSDKPlacesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA3B2072BC1A004386BC /* FBSDKPlacesKit.framework */; };
-		9AADCA432072BC1B004386BC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA3C2072BC1A004386BC /* FBSDKShareKit.framework */; };
-		9AADCA442072BC1B004386BC /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA3D2072BC1A004386BC /* FBNotifications.framework */; };
-		9AADCA452072BC1B004386BC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA3E2072BC1B004386BC /* FBSDKCoreKit.framework */; };
-		9AADCA462072BC1B004386BC /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA3F2072BC1B004386BC /* AccountKit.framework */; };
-		9AADCA472072BC1B004386BC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA402072BC1B004386BC /* FBSDKLoginKit.framework */; };
 		EE4F8EF52076765B007F645E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4F8EEB20767657007F645E /* ViewController.m */; };
 		EE4F8EF72076765B007F645E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4F8EED20767658007F645E /* LaunchScreen.storyboard */; };
 		EE4F8EF82076765B007F645E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4F8EEE20767659007F645E /* Assets.xcassets */; };
@@ -108,13 +101,6 @@
 		9A41434B1BC23E3700B64AD0 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		9A861F081B157B2000573D90 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		9AADCA382072B9E0004386BC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		9AADCA3A2072BC1A004386BC /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
-		9AADCA3B2072BC1A004386BC /* FBSDKPlacesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKPlacesKit.framework; path = FacebookSDK/FBSDKPlacesKit.framework; sourceTree = "<group>"; };
-		9AADCA3C2072BC1A004386BC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
-		9AADCA3D2072BC1A004386BC /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBNotifications.framework; path = FacebookSDK/FBNotifications.framework; sourceTree = "<group>"; };
-		9AADCA3E2072BC1B004386BC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		9AADCA3F2072BC1B004386BC /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = FacebookSDK/AccountKit.framework; sourceTree = "<group>"; };
-		9AADCA402072BC1B004386BC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		CC34EDABE7292624C57DF11D /* Pods_TotalPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotalPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4F8EE120767073007F645E /* trace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = trace.framework; sourceTree = "<group>"; };
 		EE4F8EE220767073007F645E /* payment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = payment.framework; sourceTree = "<group>"; };
@@ -156,13 +142,6 @@
 				3215285B179601FC00314EAD /* SystemConfiguration.framework in Frameworks */,
 				EE4F8F01207676EE007F645E /* payment.framework in Frameworks */,
 				321142BF178F71FB00656EBE /* AdSupport.framework in Frameworks */,
-				9AADCA412072BC1B004386BC /* FBSDKMessengerShareKit.framework in Frameworks */,
-				9AADCA422072BC1B004386BC /* FBSDKPlacesKit.framework in Frameworks */,
-				9AADCA432072BC1B004386BC /* FBSDKShareKit.framework in Frameworks */,
-				9AADCA442072BC1B004386BC /* FBNotifications.framework in Frameworks */,
-				9AADCA452072BC1B004386BC /* FBSDKCoreKit.framework in Frameworks */,
-				9AADCA462072BC1B004386BC /* AccountKit.framework in Frameworks */,
-				9AADCA472072BC1B004386BC /* FBSDKLoginKit.framework in Frameworks */,
 				321C3FD51679378E00489DA6 /* AVFoundation.framework in Frameworks */,
 				49A29C9A1636FF190084C9E3 /* QuartzCore.framework in Frameworks */,
 				49A29C981636FF0E0084C9E3 /* MediaPlayer.framework in Frameworks */,
@@ -206,13 +185,6 @@
 		49A29B6A1636F9A70084C9E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AADCA3F2072BC1B004386BC /* AccountKit.framework */,
-				9AADCA3D2072BC1A004386BC /* FBNotifications.framework */,
-				9AADCA3E2072BC1B004386BC /* FBSDKCoreKit.framework */,
-				9AADCA402072BC1B004386BC /* FBSDKLoginKit.framework */,
-				9AADCA3A2072BC1A004386BC /* FBSDKMessengerShareKit.framework */,
-				9AADCA3B2072BC1A004386BC /* FBSDKPlacesKit.framework */,
-				9AADCA3C2072BC1A004386BC /* FBSDKShareKit.framework */,
 				9AADCA382072B9E0004386BC /* libc++.tbd */,
 				9A0A31201D6C12FE00DB172D /* ImageIO.framework */,
 				9A41434B1BC23E3700B64AD0 /* LocalAuthentication.framework */,
@@ -301,7 +273,7 @@
 				ORGANIZATIONNAME = "Enrique Salazar";
 				TargetAttributes = {
 					49A29B661636F9A70084C9E3 = {
-						DevelopmentTeam = XF2RH3K2CN;
+						DevelopmentTeam = S33SYN3N85;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -524,19 +496,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XF2RH3K2CN;
+				DEVELOPMENT_TEAM = S33SYN3N85;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TotalPlay",
-					"$(PROJECT_DIR)/FacebookSDK/**",
-					"$(PROJECT_DIR)/FacebookSDK",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TotalPlay/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay01;
@@ -646,19 +617,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XF2RH3K2CN;
+				DEVELOPMENT_TEAM = S33SYN3N85;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TotalPlay",
-					"$(PROJECT_DIR)/FacebookSDK/**",
-					"$(PROJECT_DIR)/FacebookSDK",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TotalPlay/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay01;
@@ -693,19 +663,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = XF2RH3K2CN;
+				DEVELOPMENT_TEAM = S33SYN3N85;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TotalPlay",
-					"$(PROJECT_DIR)/FacebookSDK/**",
-					"$(PROJECT_DIR)/FacebookSDK",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TotalPlay/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Totalplay.Totalplay01;
