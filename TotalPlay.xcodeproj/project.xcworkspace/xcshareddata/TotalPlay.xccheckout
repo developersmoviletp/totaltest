@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0C0E402-CB6B-495D-AA5C-07791F6182C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TotalPlay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6ab30f12-d7bc-4246-8708-f25c9247826c</key>
+		<string>https://xp-dev.com/svn/IOS2.x</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/TotalPlay2.x/TotalPlay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6ab30f12-d7bc-4246-8708-f25c9247826c</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6ab30f12-d7bc-4246-8708-f25c9247826c</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6ab30f12-d7bc-4246-8708-f25c9247826c</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pruebasoft</string>
+		</dict>
+	</array>
+</dict>
+</plist>

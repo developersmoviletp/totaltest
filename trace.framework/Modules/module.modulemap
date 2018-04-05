@@ -1,0 +1,11 @@
+framework module trace {
+  umbrella header "trace.h"
+
+  export *
+  module * { export * }
+}
+
+module trace.Swift {
+    header "trace-Swift.h"
+    requires objc
+}

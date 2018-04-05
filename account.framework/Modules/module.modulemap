@@ -1,0 +1,11 @@
+framework module account {
+  umbrella header "account.h"
+
+  export *
+  module * { export * }
+}
+
+module account.Swift {
+    header "account-Swift.h"
+    requires objc
+}

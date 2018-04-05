@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6ab30f12-d7bc-4246-8708-f25c9247826c",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6ab30f12-d7bc-4246-8708-f25c9247826c" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6ab30f12-d7bc-4246-8708-f25c9247826c" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C0C0E402-CB6B-495D-AA5C-07791F6182C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6ab30f12-d7bc-4246-8708-f25c9247826c" : "pruebasoft\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TotalPlay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/TotalPlay2.x\/TotalPlay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/xp-dev.com\/svn\/IOS2.x",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6ab30f12-d7bc-4246-8708-f25c9247826c"
+    }
+  ]
+}

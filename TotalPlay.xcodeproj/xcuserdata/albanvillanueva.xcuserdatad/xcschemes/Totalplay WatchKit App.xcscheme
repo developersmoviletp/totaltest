@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9A6EAE7F1B44EA4300B1F3DB"
+               BuildableName = "Totalplay WatchKit App.app"
+               BlueprintName = "Totalplay WatchKit App"
+               ReferencedContainer = "container:TotalPlay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9A6EAE6D1B44EA4200B1F3DB"
+               BuildableName = "Totalplay WatchKit Extension.appex"
+               BlueprintName = "Totalplay WatchKit Extension"
+               ReferencedContainer = "container:TotalPlay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "49A29B661636F9A70084C9E3"
+               BuildableName = "Totalplay.app"
+               BlueprintName = "TotalPlay"
+               ReferencedContainer = "container:TotalPlay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9A6EAE7F1B44EA4300B1F3DB"
+            BuildableName = "Totalplay WatchKit App.app"
+            BlueprintName = "Totalplay WatchKit App"
+            ReferencedContainer = "container:TotalPlay.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Totalplay">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9A6EAE7F1B44EA4300B1F3DB"
+            BuildableName = "Totalplay WatchKit App.app"
+            BlueprintName = "Totalplay WatchKit App"
+            ReferencedContainer = "container:TotalPlay.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9A6EAE7F1B44EA4300B1F3DB"
+            BuildableName = "Totalplay WatchKit App.app"
+            BlueprintName = "Totalplay WatchKit App"
+            ReferencedContainer = "container:TotalPlay.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Totalplay">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9A6EAE7F1B44EA4300B1F3DB"
+            BuildableName = "Totalplay WatchKit App.app"
+            BlueprintName = "Totalplay WatchKit App"
+            ReferencedContainer = "container:TotalPlay.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9A6EAE7F1B44EA4300B1F3DB"
+            BuildableName = "Totalplay WatchKit App.app"
+            BlueprintName = "Totalplay WatchKit App"
+            ReferencedContainer = "container:TotalPlay.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

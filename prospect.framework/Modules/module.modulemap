@@ -1,0 +1,11 @@
+framework module prospect {
+  umbrella header "prospect.h"
+
+  export *
+  module * { export * }
+}
+
+module prospect.Swift {
+    header "prospect-Swift.h"
+    requires objc
+}

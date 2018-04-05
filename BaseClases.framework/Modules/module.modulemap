@@ -1,0 +1,11 @@
+framework module BaseClases {
+  umbrella header "BaseClases.h"
+
+  export *
+  module * { export * }
+}
+
+module BaseClases.Swift {
+    header "BaseClases-Swift.h"
+    requires objc
+}
