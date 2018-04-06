@@ -193,6 +193,8 @@ SWIFT_MODULE_NAMESPACE_PUSH("trace")
 SWIFT_CLASS("_TtC5trace26ConsultOTAccountAppRequest")
 @interface ConsultOTAccountAppRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 
@@ -220,6 +222,8 @@ SWIFT_CLASS("_TtC5trace13IconTextField")
 SWIFT_CLASS("_TtC5trace19TimeToArriveRequest")
 @interface TimeToArriveRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 
@@ -237,16 +241,22 @@ SWIFT_CLASS("_TtC5trace10TraceRoute")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class BaseViewController;
 
 SWIFT_CLASS("_TtC5trace22TracingDetailPresenter")
 @interface TracingDetailPresenter : BaseEstrategiaPresenter
+- (void)onSuccessLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl response:(BaseResponse * _Nonnull)response;
+- (void)onErrorLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl messageError:(NSString * _Nonnull)messageError;
+- (nonnull instancetype)initWithViewController:(BaseViewController * _Nonnull)viewController SWIFT_UNAVAILABLE;
 @end
 
+@class BasePresenter;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC5trace27TracingDetailViewController")
 @interface TracingDetailViewController : BaseViewController
 - (void)viewDidLoad;
+- (BasePresenter * _Nullable)getPresenter SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -255,11 +265,15 @@ SWIFT_CLASS("_TtC5trace27TracingDetailViewController")
 
 SWIFT_CLASS("_TtC5trace19TracingMapPresenter")
 @interface TracingMapPresenter : BaseEstrategiaPresenter <CLLocationManagerDelegate>
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithViewController:(BaseViewController * _Nonnull)viewController SWIFT_UNAVAILABLE;
 @end
 
 
 SWIFT_CLASS("_TtC5trace16TracingPresenter")
 @interface TracingPresenter : BaseEstrategiaPresenter
+- (void)onSuccessLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl response:(BaseResponse * _Nonnull)response;
+- (nonnull instancetype)initWithViewController:(BaseViewController * _Nonnull)viewController OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

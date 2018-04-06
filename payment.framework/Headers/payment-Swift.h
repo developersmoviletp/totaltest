@@ -188,11 +188,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("payment")
+@class BaseResponse;
+@class BaseViewController;
 
 SWIFT_CLASS("_TtC7payment19AddNewCardPresenter")
 @interface AddNewCardPresenter : BaseEstrategiaPresenter
+- (void)onRequestWs;
+- (void)onSuccessLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl response:(BaseResponse * _Nonnull)response;
+- (void)onErrorLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl messageError:(NSString * _Nonnull)messageError;
+- (nonnull instancetype)initWithViewController:(BaseViewController * _Nonnull)viewController OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class BasePresenter;
 @class CardIOPaymentViewController;
 @class CardIOCreditCardInfo;
 @class NSBundle;
@@ -202,6 +209,7 @@ SWIFT_CLASS("_TtC7payment24AddNewCardViewController")
 @interface AddNewCardViewController : BaseViewController <CardIOPaymentViewControllerDelegate>
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLoad;
+- (BasePresenter * _Nullable)getPresenter SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)onSaveButtonClick:(id _Nonnull)sender;
 - (IBAction)onScanNewCard:(id _Nonnull)sender;
 - (IBAction)onSaveAndPaymentButtonClick:(id _Nonnull)sender;
@@ -248,6 +256,8 @@ SWIFT_CLASS("_TtC7payment23CardsCarruselDataSource")
 SWIFT_CLASS("_TtC7payment22CheckBalanceBRMRequest")
 @interface CheckBalanceBRMRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 
@@ -268,12 +278,16 @@ SWIFT_CLASS("_TtC7payment31DescriptionPackageTableViewCell")
 
 SWIFT_CLASS("_TtC7payment20GetBillsBRMPresenter")
 @interface GetBillsBRMPresenter : BaseEstrategiaPresenter
+- (void)onSuccessLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl response:(BaseResponse * _Nonnull)response;
+- (nonnull instancetype)initWithViewController:(BaseViewController * _Nonnull)viewController SWIFT_UNAVAILABLE;
 @end
 
 
 SWIFT_CLASS("_TtC7payment18GetBillsBRMRequest")
 @interface GetBillsBRMRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 
@@ -343,12 +357,15 @@ SWIFT_CLASS("_TtC7payment24PackageTypeTableViewCell")
 
 SWIFT_CLASS("_TtC7payment19PayServicePresenter")
 @interface PayServicePresenter : BaseEstrategiaPresenter
+- (void)onSuccessLoadResponseWithRequestUrl:(NSString * _Nonnull)requestUrl response:(BaseResponse * _Nonnull)response;
+- (nonnull instancetype)initWithViewController:(BaseViewController * _Nonnull)viewController SWIFT_UNAVAILABLE;
 @end
 
 
 SWIFT_CLASS("_TtC7payment24PayServiceViewController")
 @interface PayServiceViewController : BaseViewController
 - (void)viewDidLoad;
+- (BasePresenter * _Nullable)getPresenter SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)onNextClick:(id _Nonnull)sender;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -359,6 +376,8 @@ SWIFT_CLASS("_TtC7payment24PayServiceViewController")
 SWIFT_CLASS("_TtC7payment28PaymentRegisteredCardRequest")
 @interface PaymentRegisteredCardRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 
@@ -379,6 +398,8 @@ SWIFT_CLASS("_TtC7payment12PaymentRoute")
 SWIFT_CLASS("_TtC7payment19RegisterCardRequest")
 @interface RegisterCardRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 
@@ -391,6 +412,8 @@ SWIFT_CLASS("_TtC7payment20RegisterCardResponse")
 SWIFT_CLASS("_TtC7payment22RegisteredCardsRequest")
 @interface RegisteredCardsRequest : BaseRequest
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithUser:(NSString * _Nonnull)user password:(NSString * _Nonnull)password ip:(NSString * _Nonnull)ip SWIFT_UNAVAILABLE;
 @end
 
 

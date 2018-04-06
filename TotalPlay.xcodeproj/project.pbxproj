@@ -28,6 +28,12 @@
 		9A41434A1BC23CCE00B64AD0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4143491BC23CCE00B64AD0 /* Security.framework */; };
 		9A41434C1BC23E3700B64AD0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A41434B1BC23E3700B64AD0 /* LocalAuthentication.framework */; };
 		9AADCA392072B9E0004386BC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AADCA382072B9E0004386BC /* libc++.tbd */; };
+		EE1BCED82076FA1F0003DE04 /* BaseClases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BCED62076FA150003DE04 /* BaseClases.framework */; };
+		EE1BCED92076FA1F0003DE04 /* BaseClases.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1BCED62076FA150003DE04 /* BaseClases.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE228D01207700AE00E02EFE /* trace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE228CFF207700A200E02EFE /* trace.framework */; };
+		EE228D02207700AE00E02EFE /* trace.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE228CFF207700A200E02EFE /* trace.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE228D072077098600E02EFE /* payment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE228D052077097000E02EFE /* payment.framework */; };
+		EE228D082077098600E02EFE /* payment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE228D052077097000E02EFE /* payment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE4F8EF52076765B007F645E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4F8EEB20767657007F645E /* ViewController.m */; };
 		EE4F8EF72076765B007F645E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4F8EED20767658007F645E /* LaunchScreen.storyboard */; };
 		EE4F8EF82076765B007F645E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4F8EEE20767659007F645E /* Assets.xcassets */; };
@@ -36,14 +42,8 @@
 		EE4F8EFC2076765B007F645E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4F8EF32076765A007F645E /* Info.plist */; };
 		EE4F8EFD207676EE007F645E /* account.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE520767076007F645E /* account.framework */; };
 		EE4F8EFE207676EE007F645E /* account.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE520767076007F645E /* account.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EE4F8EFF207676EE007F645E /* BaseClases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE320767074007F645E /* BaseClases.framework */; };
-		EE4F8F00207676EE007F645E /* BaseClases.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE320767074007F645E /* BaseClases.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EE4F8F01207676EE007F645E /* payment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE220767073007F645E /* payment.framework */; };
-		EE4F8F02207676EE007F645E /* payment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE220767073007F645E /* payment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE4F8F03207676EE007F645E /* prospect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE420767075007F645E /* prospect.framework */; };
 		EE4F8F04207676EE007F645E /* prospect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE420767075007F645E /* prospect.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EE4F8F05207676EE007F645E /* trace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE120767073007F645E /* trace.framework */; };
-		EE4F8F06207676EE007F645E /* trace.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F8EE120767073007F645E /* trace.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE4F8F0A20767D7A007F645E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4F8F0820767D7A007F645E /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -64,11 +64,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EE4F8F00207676EE007F645E /* BaseClases.framework in Embed Frameworks */,
-				EE4F8F06207676EE007F645E /* trace.framework in Embed Frameworks */,
-				EE4F8F02207676EE007F645E /* payment.framework in Embed Frameworks */,
+				EE228D02207700AE00E02EFE /* trace.framework in Embed Frameworks */,
 				EE4F8F04207676EE007F645E /* prospect.framework in Embed Frameworks */,
+				EE1BCED92076FA1F0003DE04 /* BaseClases.framework in Embed Frameworks */,
 				EE4F8EFE207676EE007F645E /* account.framework in Embed Frameworks */,
+				EE228D082077098600E02EFE /* payment.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,9 +102,9 @@
 		9A861F081B157B2000573D90 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		9AADCA382072B9E0004386BC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		CC34EDABE7292624C57DF11D /* Pods_TotalPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotalPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE4F8EE120767073007F645E /* trace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = trace.framework; sourceTree = "<group>"; };
-		EE4F8EE220767073007F645E /* payment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = payment.framework; sourceTree = "<group>"; };
-		EE4F8EE320767074007F645E /* BaseClases.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaseClases.framework; sourceTree = "<group>"; };
+		EE1BCED62076FA150003DE04 /* BaseClases.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaseClases.framework; sourceTree = "<group>"; };
+		EE228CFF207700A200E02EFE /* trace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = trace.framework; sourceTree = "<group>"; };
+		EE228D052077097000E02EFE /* payment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = payment.framework; sourceTree = "<group>"; };
 		EE4F8EE420767075007F645E /* prospect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = prospect.framework; sourceTree = "<group>"; };
 		EE4F8EE520767076007F645E /* account.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = account.framework; sourceTree = "<group>"; };
 		EE4F8EEB20767657007F645E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -132,15 +132,15 @@
 				32BE78C319F9774900F4328C /* AddressBook.framework in Frameworks */,
 				32BE78C419F9774900F4328C /* AddressBookUI.framework in Frameworks */,
 				321B893319F85B8900E5C2EA /* OpenGLES.framework in Frameworks */,
-				EE4F8EFF207676EE007F645E /* BaseClases.framework in Frameworks */,
 				321B893119F85B8100E5C2EA /* CoreMedia.framework in Frameworks */,
 				321B892F19F85B7900E5C2EA /* CoreVideo.framework in Frameworks */,
+				EE228D01207700AE00E02EFE /* trace.framework in Frameworks */,
 				321B892D19F85B7000E5C2EA /* libresolv.dylib in Frameworks */,
 				321B892B19F85B6800E5C2EA /* CFNetwork.framework in Frameworks */,
-				EE4F8F05207676EE007F645E /* trace.framework in Frameworks */,
 				49A29C961636FEFC0084C9E3 /* AudioToolbox.framework in Frameworks */,
+				EE1BCED82076FA1F0003DE04 /* BaseClases.framework in Frameworks */,
+				EE228D072077098600E02EFE /* payment.framework in Frameworks */,
 				3215285B179601FC00314EAD /* SystemConfiguration.framework in Frameworks */,
-				EE4F8F01207676EE007F645E /* payment.framework in Frameworks */,
 				321142BF178F71FB00656EBE /* AdSupport.framework in Frameworks */,
 				321C3FD51679378E00489DA6 /* AVFoundation.framework in Frameworks */,
 				49A29C9A1636FF190084C9E3 /* QuartzCore.framework in Frameworks */,
@@ -159,12 +159,12 @@
 		49A29B5C1636F9A70084C9E3 = {
 			isa = PBXGroup;
 			children = (
+				EE228D052077097000E02EFE /* payment.framework */,
+				EE228CFF207700A200E02EFE /* trace.framework */,
+				EE1BCED62076FA150003DE04 /* BaseClases.framework */,
 				EE4F8F0720767D5F007F645E /* TotalPlay */,
 				EE4F8EE520767076007F645E /* account.framework */,
-				EE4F8EE320767074007F645E /* BaseClases.framework */,
-				EE4F8EE220767073007F645E /* payment.framework */,
 				EE4F8EE420767075007F645E /* prospect.framework */,
-				EE4F8EE120767073007F645E /* trace.framework */,
 				3215285A179601FB00314EAD /* SystemConfiguration.framework */,
 				321142BE178F71FB00656EBE /* AdSupport.framework */,
 				321C3FD41679378E00489DA6 /* AVFoundation.framework */,
